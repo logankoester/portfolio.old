@@ -1,6 +1,6 @@
 require 'lib/portfolio'
 require 'erubis'
-require 'vendor/sinatra/lib/sinatra'
+require 'sinatra'
 require 'RedCloth'
 
 set :views,  'views'
