@@ -16,6 +16,10 @@ helpers do
   end
 end
 
+before do
+  request.env['PATH_INFO'] = '/' if request.env['PATH_INFO'].empty?
+end
+
 get '/' do
   @projects, @open_source_projects = Portfolio::Project.all.sort_by {|p| p.launched_at || Time.new }.reverse.partition {|p| p.project_type.nil? }
   erb :index
