@@ -253,6 +253,7 @@ records:
     features:
       - phone
   - title: TweetShrink Ruby gem
+    project_type: open_source
     slug: tweetshrink
     description: |
       This gem provides a Ruby interface to the TweetShrink API. "Tweetshrink tries its very best to fit your text within the harsh constraints of a tweet by replacing common phrases and words with shorter representations. Kind of like running your new text through the dryer or sending it to fat camp."
