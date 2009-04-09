@@ -252,3 +252,17 @@ records:
       - yaml
     features:
       - phone
+  - title: TweetShrink Ruby gem
+    slug: tweetshrink
+    description: |
+      This gem provides a Ruby interface to the TweetShrink API. "Tweetshrink tries its very best to fit your text within the harsh constraints of a tweet by replacing common phrases and words with shorter representations. Kind of like running your new text through the dryer or sending it to fat camp."
+    launched: March 05 2009
+    links:
+      - github.com/logankoester/tweetshrink/tree/master
+    technologies:
+      - ruby
+      - web services
+      - twitter
+    features:
+      - gem
+      - text manipulation
