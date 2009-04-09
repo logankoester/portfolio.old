@@ -26,3 +26,7 @@ get '/project/:id' do
   @layout = params['no_layout'] ? false : :layout
   erb :project, :layout => @layout
 end
+
+get '/test' do
+  "hello"
+end
