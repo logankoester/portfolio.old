@@ -1,14 +1,11 @@
 require File.join(File.dirname(__FILE__), 'app.rb')
 
-require 'rubygems'
-require 'sinatra'
+disable :run
 
-Sinatra::Application.default_options.merge!(
-      :run => false,
-        :env => :production,
-          :raise_errors => true
-    )
-log = File.new("sinatra.log", "a")
+set :environment, :production
+
+log = File.new(File.join(File.dirname(__FILE__), "sinatra.log"), "a")
 STDOUT.reopen(log)
 STDERR.reopen(log)
-run Sinatra.application
+
+run Sinatra::Application
