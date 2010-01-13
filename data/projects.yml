@@ -1,5 +1,42 @@
 ---
 records:
+  - title: PingLater.FM
+    slug: pinglater
+    description: |
+      Schedule your blog and Twitter updates for whenever you want (currently preparing for relaunch)
+    links:
+      - pinglater.fm
+      - blog.pinglater.fm
+    launched: April 2009
+    features:
+      - advertising
+      - blogging
+      - twitter
+      - design
+    technologies:
+      - openid
+      - sinatra
+      - ruby
+      - rails
+      - rpxnow
+      - ping.fm
+      - twitter
+      - activemerchant
+      - delayed_job
+      - amazon ec2
+      - modrails
+  - title: Landscapes For Healing
+    slug: landscapesforhealing
+    description: |
+      Healing gardens created with a collaborative therapeutic design
+    links:
+      - landscapesforhealing.com
+    launched: October 2007
+    technologies:
+      - wordpress
+      - php
+    features:
+      - wordpress
   - title: Paul The Walrus
     slug: paulthewalrus
     description: |
@@ -17,6 +54,7 @@ records:
       - css
       - yahoo pipes
       - rss
+      - modrails
     features:
       - twitter bot
       - rss aggregation
